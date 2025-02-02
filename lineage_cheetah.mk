@@ -8,6 +8,12 @@
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Matrixx
+MATRIXX_BUILD_TYPE := Official
+MATRIXX_CHIPSET := Tensor G2
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 1440x3120
+
 # Inherit device configuration
 DEVICE_CODENAME := cheetah
 DEVICE_PATH := device/google/pantah
